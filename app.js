@@ -40,14 +40,12 @@ let element = function () {
 
 let elements = new element;
 console.log(
-	elements.article('.myClass.myClass2#myId#myId'),
+	element.article('.myClass.myClass2#myId#myId'),
 	document.create('article')
 );
 
-
-
-
-
+element.article('.myClass.myClass2#myId#myId');
+element.create('article.myClass.myClass2#myId#myId');
 
 
 
